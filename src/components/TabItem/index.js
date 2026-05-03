@@ -6,6 +6,7 @@ const TabItem = props => {
   const onClickTab = () => {
     updatedActiveTabId(tabId)
   }
+
   const activeTabClass = isActive ? `active-tab-btn` : ''
   return (
     <li className="tab-item-container ">
